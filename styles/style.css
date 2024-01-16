@@ -5,6 +5,11 @@
 
 }
 
+body {
+    max-width: 1100px;
+    margin: 0;
+}
+
 /* share styles */
 .btn-primary {
     width: 130px;
@@ -27,7 +32,41 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
+}
+
+/* navigation section */
+
+nav {
+    max-width: 1100px;
+    margin: 0 130px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+}
+
+.nav-title img {
+    width: 70px;
+
+}
+
+.nav-title h1 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-anchor a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 
@@ -37,6 +76,7 @@
     height: 500px;
     margin: 0 130px;
     background-image: url(../Images/Group\ 13.png);
+    border-radius: 16px;
     background-size: cover;
     text-align: center;
 
@@ -45,7 +85,38 @@
 .banner-container h1 {
     padding-top: 100px;
     font-size: 60px;
+    font-weight: 800;
+    color: rgb(187, 255, 0)
 }
+
+.banner-content {
+    color: #FFF;
+    font-weight: 700;
+}
+
+.input-section {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 150px;
+    height: 40px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input-section input {
+    width: 110px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
 
 /* main section start */
 
@@ -54,6 +125,7 @@
     margin: 100px 130px;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .tour-content {
@@ -68,7 +140,7 @@
 }
 
 .tour-img img {
-    width: 90%;
+    width: 100%;
 }
 
 /* choose your destination */
@@ -87,7 +159,68 @@
 
 .destination-img {
     margin-top: 50px;
+    position: relative;
 }
+
+.maldives {
+    position: absolute;
+    left: 20%;
+    top: 9%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.indonesia{
+    position: absolute;
+    left: 64%;
+    top: 9%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+.srilanka{
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+.north{
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+.kashmir{
+    position: absolute;
+    left: 80%;
+    top: 45%;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.bangladesh{
+    position: absolute;
+    left: 10%;
+    top: 75%;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+.bandarban{
+    position: absolute;
+    left: 70%;
+    top: 75%;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+
 
 .row-img {
     display: flex;
@@ -99,6 +232,18 @@
     width: 100%;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.row-img .img-3 {
+    width: 110%;
+}
+
+.row-img .img-4 {
+    width: 140%;
+}
+
+.row-img .img-7 {
+    width: 130%;
 }
 
 /* why choose us start */
@@ -145,11 +290,13 @@
     padding: 30px;
 
 }
-.price-card{
+
+.price-card {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
+
 /* why choose us end */
 
 /* news letter section start */
@@ -164,12 +311,13 @@
     width: 40%;
     padding-left: 20px;
     margin-right: 10px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
 }
 
 .input-name {
-    width: 362px;
+    width: 93%;
     height: 30px;
-    margin-bottom: 10px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     border: none;
@@ -177,9 +325,8 @@
 }
 
 .input-email {
-    width: 362px;
+    width: 93%;
     height: 30px;
-    margin-bottom: 20px;
     margin-top: 10px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
@@ -189,7 +336,7 @@
 }
 
 #subscribe-btn {
-    width: 362px;
+    width: 93%;
     height: 40px;
     border-radius: 8px;
     background: #FF5400;
@@ -204,10 +351,27 @@
 
 .newsletter-img {
     width: 60%;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    position: relative;
+}
+
+.travel {
+    width: 220px;
+    height: 100px;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    left: 250px;
+    bottom: 60px;
+    transform: rotate(-45deg)
 }
 
 .newsletter-img img {
     width: 100%;
+    height: 100%;
 }
 
 
@@ -218,8 +382,8 @@ footer {
     /* padding-left: 130px; */
     text-align: center;
     background: rgba(19, 19, 24, 0.05);
-    padding-top: 100px;
-    padding-bottom: 90px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .footer-titel {
