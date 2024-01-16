@@ -357,14 +357,14 @@ nav {
 }
 
 .travel {
-    width: 220px;
-    height: 100px;
+    width: 50%;
+    height: 30%;
     border-radius: 16px;
     background: #FF5400;
     text-align: center;
     align-items: center;
     position: absolute;
-    left: 250px;
+    left: 180px;
     bottom: 60px;
     transform: rotate(-45deg)
 }
