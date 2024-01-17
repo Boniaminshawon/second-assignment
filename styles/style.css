@@ -159,6 +159,7 @@ nav {
 
 .destination-img {
     max-width: 1100px;
+    /* margin: 0; */
     /* margin: 100px 130px; */
     margin-top: 50px;
     /* position: relative; */
@@ -256,7 +257,7 @@ nav {
     width: 130%;
 }
 /* why choose us start */
-
+ 
 .why-choose-container {
     max-width: 1100px;
     margin: 90px 130px;
@@ -331,6 +332,14 @@ nav {
     color: black;
     padding-bottom: 20px;
     font-size: 40px;
+}
+.extra p{
+    padding: 0 90px;
+}
+.extra hr{
+    width: 640px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .icon-1{
     display: flex;

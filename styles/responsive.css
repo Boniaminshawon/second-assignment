@@ -192,6 +192,15 @@
         margin: 25px 25px;
 
     }
+    .extra h1{
+        font-size: 28px;
+    }
+    .extra p{
+        padding: 0 50px;
+    }
+    .extra hr{
+        width: 400px;
+    }
 
     .newsletter-container {
         margin: 0 25px;
@@ -318,6 +327,13 @@
 
     .why-choose-container p {
         padding: 20px 45px;
+    }
+    .extra{
+        margin: 50px 90px;
+
+    }
+    .extra hr{
+        width: 400px;
     }
 
     .newsletter-container {
