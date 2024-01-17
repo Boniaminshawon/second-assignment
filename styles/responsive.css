@@ -1,38 +1,41 @@
-
-
-     /* responsive for mobile device */
+/* responsive for mobile device */
 
 @media screen and (max-width:600px) {
     nav {
-        
+
         margin: 0 25px;
         margin-top: 10px;
     }
+
     .nav-title img {
         width: 50px;
-    
+
     }
+
     .nav-anchor a {
         margin-left: 15px;
         font-size: 16px;
     }
-    
+
     .nav-title h1 {
         font-size: 24px;
     }
-    .banner-container{
+
+    .banner-container {
         margin: 0 25px;
         padding: 0 20px;
         background-size: 90deg;
         background-repeat: no-repeat;
-        
+
     }
-    .banner-container h1{
+
+    .banner-container h1 {
         margin-top: 0;
-        padding-top:30px;
+        padding-top: 30px;
         font-size: 30px;
     }
-    .input-section{
+
+    .input-section {
         flex-direction: column;
         row-gap: 20px;
         height: 250px;
@@ -41,35 +44,43 @@
         margin-top: 30px;
         align-items: center;
     }
+
     .input-section input {
         height: 40px;
         width: 240px;
     }
-    .populer-tour{
+
+    .populer-tour {
         flex-direction: column;
         margin: 0 25px;
     }
-    .tour-content{
+
+    .tour-content {
         width: 100%;
         /* text-align: center; */
     }
-    .tour-img{
+
+    .tour-img {
         width: 100%;
         justify-content: center;
     }
-    .destination-container,.why-choose-container {
+
+    .destination-container,
+    .why-choose-container {
         margin: 0 25px;
         padding-top: 10px;
     }
-    .destination-content h2{
+
+    .destination-content h2 {
         font-size: 28px;
-        
+
     }
+
     .destination-img {
         margin-top: 20px;
         position: relative;
     }
-    
+
     .maldives {
         position: absolute;
         left: 35%;
@@ -78,16 +89,18 @@
         font-size: 28px;
         font-weight: 800;
     }
-    .indonesia{
+
+    .indonesia {
         position: absolute;
         left: 35%;
         top: 15%;
         color: #FFF;
         font-size: 28px;
         font-weight: 800;
-    
+
     }
-    .srilanka{
+
+    .srilanka {
         position: absolute;
         left: 40%;
         top: 30%;
@@ -95,7 +108,8 @@
         font-size: 20px;
         font-weight: 800;
     }
-    .north{
+
+    .north {
         position: absolute;
         left: 40%;
         top: 45%;
@@ -103,16 +117,18 @@
         font-size: 20px;
         font-weight: 800;
     }
-    .kashmir{
+
+    .kashmir {
         position: absolute;
         left: 40%;
         top: 65%;
         color: #FFF;
         font-size: 20px;
         font-weight: 800;
-    
+
     }
-    .bangladesh{
+
+    .bangladesh {
         position: absolute;
         left: 40%;
         top: 81%;
@@ -120,59 +136,81 @@
         font-size: 20px;
         font-weight: 800;
     }
-    .bandarban{
+
+    .bandarban {
         position: absolute;
-        left: 40%;
-        top: 93%;
+        left: 41%;
+        top: 94%;
         color: #FFF;
         font-size: 20px;
         font-weight: 800;
     }
-    
-    .row-img{
+
+    .row-img {
         flex-direction: column;
     }
-     .row-img .img-3{
+
+    .row-img .img-3 {
         width: 100%;
     }
-    .row-img .img-4{
+
+    .row-img .img-4 {
         width: 100%;
     }
-    .row-img .img-7{
+
+    .row-img .img-7 {
         width: 100%;
     }
-    .why-choose-container p{
+
+    .why-choose-container {
+        margin: 0 25px;
+        padding-top: 10px;
+        text-align: center;
+        
+    }
+
+    .why-choose-container p {
         padding: 0 35px;
     }
-    .why-choose-card{
+
+    .why-choose-card {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .hotel-card ,.service-card{
-        width:93%;
+
+    .hotel-card,
+    .service-card {
+        width: 93%;
         flex-wrap: wrap;
     }
-    .price-guarantee-card{
+
+    .price-guarantee-card {
         width: 100%;
     }
-    .newsletter-container{
+
+    .newsletter-container {
         margin: 0 25px;
         padding-top: 10px;
         flex-direction: column;
         row-gap: 20px;
     }
-    .newsletter-input{
+
+    .newsletter-input {
         width: 95%;
         padding-bottom: 20px;
         margin-top: 10px;
-    
+
     }
-    .input-name,.input-email{
+
+    .input-name,
+    .input-email {
         margin-bottom: 10px;
     }
-    .newsletter-img{
+
+    .newsletter-img {
         width: 100%;
     }
+
     .travel {
         width: 180px;
         height: 80px;
@@ -182,23 +220,28 @@
         position: absolute;
         left: 150px;
         bottom: 48px;
-        transform:rotate(-45deg)
+        transform: rotate(-45deg)
     }
-    footer{
+
+    footer {
         margin: 0;
         padding: 30px 0;
     }
+
     .footer-titel {
         font-size: 12px;
     }
-    footer .paragaph-description{
+
+    footer .paragaph-description {
         padding-left: 30px;
         padding-right: 30px;
     }
+
     .footer-icons {
         font-size: 28px;
         padding: 10px;
     }
+
     footer hr {
         width: 85%;
     }
@@ -208,72 +251,88 @@
 /* responsive for desktop */
 @media screen and (min-width:600px) and (max-width:992px) {
 
-     nav {
-        
+    nav {
+
         margin: 0 90px;
         margin-top: 50px;
     }
+
     .nav-title img {
         width: 50px;
-    
+
     }
+
     .nav-anchor a {
         margin-left: 20px;
         font-size: 18px;
     }
-    
+
     .nav-title h1 {
         font-size: 28px;
     }
-    .banner-container{
+
+    .banner-container {
         margin: 0 90px;
         padding: 0 20px;
         background-size: 90deg;
         background-repeat: no-repeat;
-        
+
     }
+
     .banner-container h1 {
         margin-top: 30px;
-        padding-top:70px;
+        padding-top: 70px;
         font-size: 48px;
     }
-    .input-section{
+
+    .input-section {
         height: 60px;
         margin: 0 80px;
     }
-    .input-section input{
+
+    .input-section input {
         width: 87px;
     }
-    .populer-tour{
+
+    .populer-tour {
         margin: 50px 90px;
 
     }
-    .destination-container{
+
+    .destination-container {
         margin: 50px 90px;
     }
+
     .destination-content h2 {
         font-size: 32px;
     }
-    .why-choose-container{
+
+    .why-choose-container {
         margin: 50px 90px;
     }
-    .why-choose-container p{
+
+    .why-choose-container p {
         padding: 20px 45px;
     }
+
     .newsletter-container {
         margin: 50px 90px;
     }
-    footer{
+
+    footer {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
     footer .paragaph-description {
         padding-left: 190px;
         padding-right: 190px;
     }
+
     footer hr {
         width: 640px;
     }
+
     .copy-right {
         margin-top: 30px;
     }

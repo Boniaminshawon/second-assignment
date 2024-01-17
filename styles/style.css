@@ -212,7 +212,7 @@ nav {
 .bangladesh {
     position: absolute;
     left: 10%;
-    top: 75%;
+    top: 76%;
     color: #FFF;
     font-size: 20px;
     font-weight: 800;
@@ -221,7 +221,7 @@ nav {
 .bandarban {
     position: absolute;
     left: 70%;
-    top: 75%;
+    top: 76%;
     color: #FFF;
     font-size: 20px;
     font-weight: 800;
@@ -253,8 +253,6 @@ nav {
 .row-img .img-7 {
     width: 130%;
 }
-
-*/
 /* why choose us start */
 
 .why-choose-container {
@@ -262,8 +260,6 @@ nav {
     margin: 90px 130px;
     text-align: center;
 }
-
-
 .why-choose-container p {
     padding: 0 60px;
     padding-bottom: 30px;
@@ -386,7 +382,7 @@ nav {
     align-items: center;
     position: absolute;
     left: 180px;
-    bottom: 60px;
+    bottom: 65px;
     transform: rotate(-45deg)
 }
 
