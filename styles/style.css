@@ -163,7 +163,7 @@ nav {
     margin-top: 50px;
     /* position: relative; */
 }
-
+/* 
 .maldives {
     position: absolute;
     left: 20%;
@@ -227,7 +227,7 @@ nav {
     color: #FFF;
     font-size: 20px;
     font-weight: 800;
-}
+} */
 
 
 .row-img {
@@ -236,7 +236,6 @@ nav {
     margin-bottom: 15px;
     max-width: 840px;
     /* margin: 0 130px; */
-    position: relative;
 }
 
 .row-img img {
@@ -318,6 +317,39 @@ nav {
 }
 
 /* why choose us end */
+
+.extra{
+    max-width: 1100px;
+    margin: 90px 130px;
+    border: 1px solid black;
+    text-align: center;
+    background-color:bisque;
+    border-radius: 16px;
+
+}
+.extra h1{
+    color: black;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.icon-1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.icon-1 a {
+    text-decoration: none;
+    font-size: 32px;
+}
+.icon-2{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.icon-2 a {
+    text-decoration: none;
+    font-size: 32px;
+}
 
 /* news letter section start */
 
