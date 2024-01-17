@@ -161,13 +161,13 @@ nav {
     max-width: 1100px;
     /* margin: 100px 130px; */
     margin-top: 50px;
-    position: relative;
+    /* position: relative; */
 }
 
 .maldives {
     position: absolute;
     left: 20%;
-    top: 9%;
+    top: 20%;
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
@@ -176,7 +176,7 @@ nav {
 .indonesia {
     position: absolute;
     left: 64%;
-    top: 9%;
+    top: 20%;
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
@@ -214,7 +214,7 @@ nav {
 .bangladesh {
     position: absolute;
     left: 10%;
-    top: 76%;
+    top: 30%;
     color: #FFF;
     font-size: 20px;
     font-weight: 800;
@@ -222,8 +222,8 @@ nav {
 
 .bandarban {
     position: absolute;
-    left: 70%;
-    top: 76%;
+    left: 65%;
+    top: 30%;
     color: #FFF;
     font-size: 20px;
     font-weight: 800;
@@ -236,6 +236,7 @@ nav {
     margin-bottom: 15px;
     max-width: 840px;
     /* margin: 0 130px; */
+    position: relative;
 }
 
 .row-img img {
