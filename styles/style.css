@@ -164,7 +164,7 @@ nav {
     margin-top: 50px;
     /* position: relative; */
 }
-/* 
+
 .maldives {
     position: absolute;
     left: 20%;
@@ -228,7 +228,7 @@ nav {
     color: #FFF;
     font-size: 20px;
     font-weight: 800;
-} */
+}
 
 
 .row-img {
@@ -237,6 +237,7 @@ nav {
     margin-bottom: 15px;
     max-width: 840px;
     /* margin: 0 130px; */
+    position: relative;
 }
 
 .row-img img {
