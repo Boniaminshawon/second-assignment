@@ -226,6 +226,8 @@ nav {
     display: flex;
     gap: 15px;
     margin-bottom: 15px;
+    max-width: 840px;
+    /* margin: 0 130px; */
 }
 
 .row-img img {
@@ -253,6 +255,9 @@ nav {
     text-align: center;
 
 }
+.why-choose-container p{
+    padding: 0 60px;
+}
 
 .why-choose-card {
     display: flex;
@@ -266,7 +271,9 @@ nav {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    padding: 30px;
+     padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
 
 }
 
@@ -276,9 +283,10 @@ nav {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    padding: 30px;
-
-
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    
 }
 
 .price-guarantee-card {
@@ -286,8 +294,11 @@ nav {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    width: 43%;
-    padding: 30px;
+    width: 50%;
+    /* padding: 30px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
 
 }
 
