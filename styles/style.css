@@ -158,6 +158,8 @@ nav {
 }
 
 .destination-img {
+    max-width: 1100px;
+    /* margin: 100px 130px; */
     margin-top: 50px;
     position: relative;
 }
